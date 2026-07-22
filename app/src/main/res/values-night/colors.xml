@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="teal_primary">#26A69A</color>
+    <color name="teal_primary_dark">#00332C</color>
+    <color name="teal_light">#00473E</color>
+    <color name="blue_accent">#4FC3F7</color>
+    <color name="background">#121A19</color>
+    <color name="surface">#1B2523</color>
+    <color name="text_primary">#EAF5F3</color>
+    <color name="text_secondary">#A9BFBC</color>
+    <color name="correct_green">#66BB6A</color>
+    <color name="wrong_red">#EF5350</color>
+    <color name="card_border">#2C3A38</color>
+</resources>

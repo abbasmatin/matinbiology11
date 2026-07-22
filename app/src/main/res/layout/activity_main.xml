@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background">
+
+    <include layout="@layout/toolbar_common" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <TextView
+                android:id="@+id/creditLine"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="18dp"
+                android:background="@drawable/bg_card"
+                android:padding="14dp"
+                android:gravity="center"
+                android:textColor="@color/text_primary"
+                android:textSize="14sp"
+                android:text="@string/credit_line" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="14dp"
+                android:gravity="center"
+                android:text="زیست‌شناسی پایه یازدهم"
+                android:textColor="@color/teal_primary_dark"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btnText"
+                style="@style/SectionButton"
+                android:text="@string/menu_text" />
+
+            <Button
+                android:id="@+id/btnImages"
+                style="@style/SectionButton"
+                android:text="@string/menu_images" />
+
+            <Button
+                android:id="@+id/btnKeyPoints"
+                style="@style/SectionButton"
+                android:text="@string/menu_keypoints" />
+
+            <Button
+                android:id="@+id/btnEssay"
+                style="@style/SectionButton"
+                android:text="@string/menu_essay" />
+
+            <Button
+                android:id="@+id/btnMcq"
+                style="@style/SectionButton"
+                android:text="@string/menu_mcq" />
+
+            <Button
+                android:id="@+id/btnAbout"
+                style="@style/SectionButton"
+                android:background="@drawable/bg_button_outline"
+                android:textColor="@color/teal_primary_dark"
+                android:text="@string/menu_about" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

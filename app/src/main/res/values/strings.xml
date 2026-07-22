@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">زیست‌شناسی یازدهم</string>
+    <string name="credit_line">تألیف، تدریس و ساخت این برنامه توسط <b>استاد عباس متین</b> دبیر زیست‌شناسی اصفهان و مدرس دانشگاه انجام شده است</string>
+
+    <string name="menu_text">متن فصل به فصل</string>
+    <string name="menu_images">شرح تصاویر کتاب</string>
+    <string name="menu_keypoints">نکات کلیدی</string>
+    <string name="menu_essay">سوالات تشریحی امتحانات نهایی</string>
+    <string name="menu_mcq">سوالات تستی</string>
+    <string name="menu_about">درباره ما</string>
+
+    <string name="action_home">بازگشت به منوی اصلی</string>
+    <string name="action_exit">خروج</string>
+    <string name="action_dark_mode">حالت تاریک</string>
+    <string name="action_font_size">اندازه فونت</string>
+    <string name="action_restart">شروع مجدد</string>
+    <string name="action_show_answer">نمایش پاسخ</string>
+    <string name="action_hide_answer">پنهان کردن پاسخ</string>
+    <string name="action_next">سوال بعدی</string>
+
+    <string name="exit_confirm_title">خروج از برنامه</string>
+    <string name="exit_confirm_message">آیا مطمئن هستید که می‌خواهید از برنامه خارج شوید؟</string>
+    <string name="yes">بله</string>
+    <string name="no">خیر</string>
+
+    <string name="font_small">کوچک</string>
+    <string name="font_medium">متوسط</string>
+    <string name="font_large">بزرگ</string>
+
+    <string name="quiz_result">نتیجه آزمون</string>
+    <string name="quiz_score_format">امتیاز شما: %1$d از %2$d (%3$d%%)</string>
+
+    <string name="select_chapter">یک فصل را انتخاب کنید</string>
+</resources>
